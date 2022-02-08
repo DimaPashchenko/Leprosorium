@@ -1,12 +1,16 @@
 <h2>Add New Post</h2>
 <p>
+	
 	<form action ="/new" method="POST">
-		<textarea name="author" class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Type your name"></textarea>
+		<div class="mb-3">
+			<textarea name="author" class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="Type your name"></textarea>
 		<br />
-	</form>
-	<form action ="/new" method="POST">
-		<textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Type post text here"></textarea>
+		</div>
+		
+		<div class="mb-3">
+			<textarea name="content" class="form-control" id="exampleFormControlTextarea1" rows="6" placeholder="Type post text here"></textarea>
 		<br />
-		<button type="submit" class="btn btn-primary">Submit</button>
-	</form>
+    	</div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
 </p>
